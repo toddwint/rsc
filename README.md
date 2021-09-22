@@ -32,7 +32,7 @@ docker run -dit --rm \
     -v rsc:/opt/rsc/ \
     -e TZ=$TZ \
     --cap-add=NET_ADMIN \
-    toddwint/rsc:0.01
+    toddwint/rsc
 ```
 
 ## Sample webadmin.html.template file
